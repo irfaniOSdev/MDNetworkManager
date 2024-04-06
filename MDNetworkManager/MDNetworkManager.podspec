@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MDNetworkManager"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Simple network manager built with combine."
 
   spec.description  = "Simple network manager built with combine to call APIs of Movie DB sample project."
@@ -14,9 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Muhammad Irfan" => "mohammad.irfan9117@gmail.com" }
 
-   spec.authors            = { "Muhammad Irfan" => "mohammad.irfan9117@gmail.com" }
-
-   spec.platform     = :ios, "16.0"
+   spec.platform     = :ios, "15.0"
 
    spec.source       = { :git => "https://github.com/irfaniOSdev/MDNetworkManager.git", :tag => spec.version.to_s }
 
