@@ -16,7 +16,7 @@ public enum HTTPMethod: String {
     // Add other HTTP methods as needed
 }
 
-protocol NetworkServiceProtocol {
+public protocol NetworkServiceProtocol {
   func fetchData<T: Decodable>(from url: URL, method: HTTPMethod, headers: [String: String]?, parameters: [String: Any]?) -> AnyPublisher<T, Error>
 }
 
